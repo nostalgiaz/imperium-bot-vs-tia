@@ -29,12 +29,12 @@ function App() {
                 <th width={300}>Tia</th>
             </tr>
             <tr style={{background: '#ffff0033'}}>
-                <td>Points</td>
+                <td>Punti</td>
                 <td>{renderCounter(botPoints, setBotPoints)}</td>
                 <td>{renderCounter(tiaPoints, setTiaPoints)}</td>
             </tr>
             <tr style={{background: '#ff000033'}}>
-                <td>Red</td>
+                <td>Rossi</td>
                 <td>{renderCounter(botRed, setBotRed)}</td>
                 <td>{renderCounter(tiaRed, setTiaRed)}</td>
             </tr>
